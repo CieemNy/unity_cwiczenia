@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class zadanie4 : MonoBehaviour
+public class zadanie4_lab4 : MonoBehaviour
 {
 
     public Transform player;

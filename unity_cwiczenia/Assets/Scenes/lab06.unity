@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -674,13 +674,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1618866438}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1e17f6a07caa0b47b13110a1ba988e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fca29e401982e6443835ae285df90fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
-  - {fileID: 149391007}
-  - {fileID: 446218490}
-  - {fileID: 123439674}
+  Speed: 2
+  distance: 10
 --- !u!65 &1618866440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -866,10 +864,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1661598578}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d43fd82dbd3952c40a2bef8f50fd17f7, type: 3}
+  m_Script: {fileID: 11500000, guid: fca29e401982e6443835ae285df90fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  Speed: 2
   distance: 10
 --- !u!1 &1678634010
 GameObject:

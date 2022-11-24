@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class zadanie1 : MonoBehaviour
+public class zadanie1_lab1 : MonoBehaviour
 {
     List<Vector3> positions = new List<Vector3>();
     public float delay = 3.0f;
